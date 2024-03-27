@@ -55,7 +55,7 @@ select {
 
 /* Todo header */
 
-.td-container {
+.todo-container {
   max-width: 450px;
   margin: 3rem auto;
   background-color: #fdfdfd;
@@ -63,7 +63,7 @@ select {
   border-radius: 15px;
 }
 
-.td-container header {
+.todo-container header {
   text-align: center;
   padding: 0 1rem 1rem;
   border-bottom: 1px solid #ccc;
@@ -71,12 +71,12 @@ select {
 
 /* Todo form */
 
-#edit-form, #td-form {
+#edit-form, #todo-form {
   padding: 1rem;
   border-bottom: 1px solid #ccc;
 }
 
-#td-form p,
+#todo-form p,
 #edit-form p {
   margin-bottom:  .5rem;
   font-weight: bold;
