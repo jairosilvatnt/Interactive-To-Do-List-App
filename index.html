@@ -24,7 +24,7 @@
           </button>
         </div>
       </form>
-      <form id="edit-formm">
+      <form id="edit-form" class="hide">
         <p>Editar tarefa:</p>
         <div class="form-control">
           <input type="text" id="edit-input">
@@ -35,7 +35,7 @@
         <button id="cancel-edit-btn">Cancelar</button>
       </form>
       <div class="toolbar">
-        <div class="search">
+        <div class="search" id="search">
           <h4>Pesquisar:</h4>
           <form>
             <input type="text" id="search-input" placeholder="Buscar tarefa">
@@ -44,13 +44,39 @@
             </button>
           </form>
         </div>
-        <div class="filter">
+        <div class="filter" id="filter">
           <h4>Filtrar:</h4>
           <select id="filter-select">
             <option value="all">Todos</option>
             <option value="done">Feitos</option>
             <option value="todo">A fazer</option>
           </select>
+        </div>
+      </div>
+      <div class="todo-list">
+        <div class="todo">
+          <h3>Estou fazendo alguma coisa...</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="finish-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="finish-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <h3>Estudadr JavaScript...</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="finish-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="finish-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
         </div>
       </div>
     </div>
